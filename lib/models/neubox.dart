@@ -7,8 +7,8 @@ class NeuBox extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 380,
-      width: double.infinity,
+      height: 440,
+      //width: 500,
       margin: EdgeInsets.symmetric(horizontal: 25),
       padding: const EdgeInsets.all(10),
       decoration: BoxDecoration(
