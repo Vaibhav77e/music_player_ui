@@ -6,10 +6,11 @@ class NeuBox extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // Size size = MediaQuery.of(context).size;
     return Container(
       height: 440,
       //width: 500,
-      margin: EdgeInsets.symmetric(horizontal: 25),
+      margin: const EdgeInsets.symmetric(horizontal: 25),
       padding: const EdgeInsets.all(10),
       decoration: BoxDecoration(
           color: Colors.grey[300],
@@ -24,9 +25,8 @@ class NeuBox extends StatelessWidget {
             const BoxShadow(
                 color: Colors.white, blurRadius: 15, offset: Offset(-5, -5)),
           ]),
-      child: Center(
-        child: child,
-      ),
+
+      child: child,
     );
   }
 }
